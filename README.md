@@ -27,18 +27,23 @@ forensic_sim/
 ├── keymanager.py    # Key management (AES keys per collector)
 ├── evaluator.py     # Runs scenarios, collects stats, tamper simulation
 ├── main.py          # CLI runner (demo/tamper modes)
+├── docs             # his folder contains project-related screenshots and txt files 
+├── examples         # This folder contains sample outputs generated during simulation runs
 │
-├── forensic.db      # Generated database (auto-created at runtime)
-├── timeline.csv     # Timeline of collected events
-├── timeline.png     # Event collection graph
-├── verify_summary.csv # Verification results (for appendix)
-├── verify_summary.txt # Text version of verification results
-├── audit_log.txt    # Append-only forensic audit log
-├── tamper_detection.png # Bar chart (OK vs Tampered)
-│
+-├── forensic.db      # Generated database (auto-created at runtime)
+-├── timeline.csv     # Timeline of collected events
+-├── timeline.png     # Event collection graph
+-├── verify_summary.csv # Verification results (for appendix)
+-├── verify_summary.txt # Text version of verification results
+-├── audit_log.txt    # Append-only forensic audit log
+-├── tamper_detection.png # Bar chart (OK vs Tampered)
+-│
 └── README.md        # Project documentation
 ```
-
+---
+> ⚠️ Note: Files like `forensic.db`, `timeline.csv`, `verify_summary.*`, `audit_log.txt`, 
+> and `tamper_detection.png` are **generated automatically** when you run the simulation.
+> They are not version-controlled (ignored in .gitignore).
 ---
 
 ## Installation
@@ -103,7 +108,7 @@ Generates:
 
 ## Example Output
 
-### Console (verification summary)
+### Console Output (verification summary)
 
 ```
 +-----------+--------+-------------------+
@@ -134,3 +139,4 @@ Summary:
 
 
 
+This project was developed as part of the MSc Dissertation by Mohit Kumar (2025).
