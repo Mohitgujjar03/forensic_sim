@@ -124,15 +124,6 @@ Summary:
 ```
 [2025-08-27 14:32:11] Run with 200 events → OK:180, Failed:20
 ```
-
----
-
-## Dissertation Integration
-
-* **Methodology Chapter** → Explain simulation design and use of this framework.
-* **Results Chapter** → Insert `timeline.png` and `tamper_detection.png`.
-* **Appendices** → Include `verify_summary.csv` and `audit_log.txt`.
-
 ---
 
 ## Future Enhancements
@@ -140,5 +131,6 @@ Summary:
 * Support for multiple forensic storage backends (MongoDB, Cloud).
 * Integration with blockchain for immutable audit trails.
 * Real IoT hardware integration (Raspberry Pi, ESP32).
+
 
 
