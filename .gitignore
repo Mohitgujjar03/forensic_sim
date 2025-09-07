@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project-generated artifacts (root)
+/forensic.db
+/audit_log.txt
+/timeline.csv
+/timeline.png
+/verify_summary.csv
+/verify_summary.txt
+/tamper_detection.png
